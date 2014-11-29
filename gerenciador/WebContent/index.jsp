@@ -7,8 +7,8 @@ Usuário logado:
 	${usuarioLogado.email }
 </c:if>
 <br>
-<form action="novaEmpresa" method="post">
-	<input type="text" name="nome">
+<form action="executa?tarefa=NovaEmpresa" method="post">
+	Nome: <input type="text" name="nome">
 	<input type="submit" value="Enviar">
 </form>p
 
@@ -18,7 +18,7 @@ Usuário logado:
 	<input type="submit" value="Enviar">
 </form>
 
-<form action="logout" method="POST">
+<form action="executa?tarefa=Logout" method="POST">
 	<input type="submit" value="Deslogar">
 </form>
 
